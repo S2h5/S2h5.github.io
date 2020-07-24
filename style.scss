@@ -13,9 +13,11 @@
 /* BASE RULES */
 /**************/
 
-html {
-  font-size: 100%;
-  --top-spacing: 150px;
+html,body{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
 }
 
 body {
@@ -26,12 +28,11 @@ body {
   	margin: var(--top-spacing) auto;
 }
 
-.home-container {
-  background-image: url("/images/bg-full.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+#home {
+	background: url("/images/bg-full.jpg") center no-repeat fixed;
+	background-size:  cover;
+	display:flex;
 }
 
 .wrapper-footer {
