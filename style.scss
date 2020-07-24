@@ -15,12 +15,15 @@
 
 html {
   font-size: 100%;
+  --top-spacing: 100px;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+        font: 18px/1.4 $helvetica;
+  	color: $darkGray;
+	scroll-padding-top: var(--top-spacing);
+  	margin: var(--top-spacing) auto;
 }
 
 .wrapper-footer {
@@ -158,6 +161,10 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .masthead {
