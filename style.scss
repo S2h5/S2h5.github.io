@@ -23,6 +23,12 @@ body {
   color: $darkGray;
 }
 
+.wrapper-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
