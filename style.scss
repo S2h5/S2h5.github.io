@@ -38,12 +38,17 @@ body {
 	align-items:center;
 }
 
-#name{
+#name-container{
 	display:flex;
 	flex-wrap:wrap;
 	flex-direction:row;
-	font-size: 40dp;
 }
+
+.name{
+	font-size: 3em;
+	color: #ffffff;
+}
+
 
 .wrapper-footer {
   position: fixed;
