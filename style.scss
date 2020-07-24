@@ -37,6 +37,13 @@ body {
 	align-items:center;
 }
 
+#name{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	font-size: 40dp;
+}
+
 .wrapper-footer {
   position: fixed;
   bottom: 0;
