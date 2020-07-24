@@ -26,6 +26,14 @@ body {
   	margin: var(--top-spacing) auto;
 }
 
+.home-container {
+  background-image: url("/assets/bg-full.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .wrapper-footer {
   position: fixed;
   bottom: 0;
