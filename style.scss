@@ -15,7 +15,7 @@
 
 html {
   font-size: 100%;
-  --top-spacing: 100px;
+  --top-spacing: 150px;
 }
 
 body {
@@ -160,11 +160,11 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  background: $white;
 }
 
 .masthead {
